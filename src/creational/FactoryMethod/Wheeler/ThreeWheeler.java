@@ -1,9 +1,9 @@
-package creational.FactoryMethod;
+package creational.FactoryMethod.Wheeler;
 
-public class FourWheeler extends Wheeler{
+public class ThreeWheeler extends Wheeler{
     private int wheels;
 
-    FourWheeler(int wheels){
+    public ThreeWheeler(int wheels){
         super(wheels);
         this.wheels = wheels;
     }
@@ -12,4 +12,5 @@ public class FourWheeler extends Wheeler{
     public String constructChassis(){
         return wheels + " Wheel Chassis";
     }
+
 }

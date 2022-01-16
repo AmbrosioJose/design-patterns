@@ -1,4 +1,4 @@
-package creational.FactoryMethod;
+package creational.FactoryMethod.Wheeler;
 
 public class Main {
     public static void main(String [] args){

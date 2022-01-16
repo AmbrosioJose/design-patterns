@@ -1,4 +1,4 @@
-package creational.FactoryMethod;
+package creational.FactoryMethod.Wheeler;
 
 public abstract class Wheeler {
 
