@@ -22,6 +22,6 @@ public interface Subject {
     /**
      * Notifies all observers when the Subject's state has changed
      */
-    public void notifyObserver();
+    public void notifyObservers();
 
 }
