@@ -20,6 +20,10 @@ public class CaliforniaPizzaStore extends PizzaStore {
                 pizza = new VeggiePizza(ingredientFactory);
                 pizza.setName("California style veggie pizza");
             }
+            case "clam" -> {
+                pizza = new ClamPizza(ingredientFactory);
+                pizza.setName("California style clam pizza");
+            }
             default ->{}
         }
 

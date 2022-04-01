@@ -19,6 +19,10 @@ public class NYPizzaStore extends PizzaStore {
                 pizza = new VeggiePizza(ingredientFactory);
                 pizza.setName("New York style veggie pizza");
             }
+            case "clam" -> {
+                pizza = new ClamPizza(ingredientFactory);
+                pizza.setName("New York style clam pizza");
+            }
             default -> {}
         }
 

@@ -28,7 +28,7 @@ public class CaliforniaPizzaIngredientFactory implements PizzaIngredientFactory{
 
     @Override
     public Clams createClams(){
-        return null;
+        return new FrozenClams();
     }
 
 
