@@ -12,5 +12,6 @@ public abstract class Wheeler {
         return wheels;
     }
 
+    // Factory method that must be implemented by subclasses
     public abstract String constructChassis();
 }

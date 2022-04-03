@@ -1,4 +1,4 @@
-package Creational.Singleton;
+package Creational.Singleton.OneAndOnly;
 
 public class OneAndOnlyOne {
 
